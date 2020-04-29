@@ -12,18 +12,18 @@ while True:
         break
     else:
         if tokens[0] == 'pow':
-            print(power(int(tokens[1]), int(tokens[2])))
+            print(power(float(tokens[1]), float(tokens[2])))
         elif tokens[0] == '+':
-            print(add(int(tokens[1]), int(tokens[2])))
+            print(add(float(tokens[1]), float(tokens[2])))
         elif tokens[0] == '-':
-            print(subtract(int(tokens[1]), int(tokens[2])))
+            print(subtract(float(tokens[1]), float(tokens[2])))
         elif tokens[0] == '*':
-            print(multiply(int(tokens[1]), int(tokens[2])))
+            print(multiply(float(tokens[1]), float(tokens[2])))
         elif tokens[0] == '/':   
-            print(divide(int(tokens[1]), int(tokens[2])))
+            print(divide(float(tokens[1]), float(tokens[2])))
         elif tokens[0] == 'square':   
-            print(square(int(tokens[1])))
+            print(square(float(tokens[1])))
         elif tokens[0] == 'cube':   
-            print(cube(int(tokens[1])))
+            print(cube(float(tokens[1])))
         elif tokens[0] == 'mod':   
-            print(mod(int(tokens[1]), int(tokens[2])))
+            print(mod(float(tokens[1]), float(tokens[2])))
